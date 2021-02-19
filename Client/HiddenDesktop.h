@@ -6,6 +6,7 @@
 #pragma comment(lib, "Ws2_32.lib")
 #pragma comment(lib, "ntdll.lib")
 #pragma comment (lib, "Shlwapi.lib")
+#pragma warning(disable : 4996)
 enum Connection { desktop, input };
 enum Input { mouse };
 
